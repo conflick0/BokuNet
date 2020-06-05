@@ -43,8 +43,8 @@ def build(raw_dataset_dir, dataset_dir):
 
 
 if __name__ == '__main__':
-    raw_dataset_dir = "../raw_dataset/hgr_raw_dataset"
+    raw_dataset_dir = "../raw_dataset/sdd_raw_dataset"
 
-    dataset_dir = "../dataset/hgr"
+    dataset_dir = "../dataset/sdd"
 
     build(raw_dataset_dir, dataset_dir)
